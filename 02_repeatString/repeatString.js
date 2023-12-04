@@ -2,7 +2,7 @@ const repeatString = function(word, num) {
     if (num < 0) {
         return "ERROR";
     }
-    output = '';
+    let output = '';
     while (num--) {
         output += word;
     }
